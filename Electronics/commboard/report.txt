@@ -1,0 +1,6 @@
+Info: Front (top side) placement file: 'E:\Projects\aydolabs\combo\Electronics\commboard\ComponentPlacement\commboard-top-pos.csv'.
+Info: Component count: 96.
+Info: Back (bottom side) placement file: 'E:\Projects\aydolabs\combo\Electronics\commboard\ComponentPlacement\commboard-bottom-pos.csv'.
+Info: Component count: 19.
+Info: Full component count: 115.
+Info: File generation successful.

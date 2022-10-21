@@ -481,7 +481,8 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOA, Out0_Pin|Out1_Pin|RS485_Control1_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, Out2_Pin|RS485_Control2_Pin|RS485_Control3_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, Out2_Pin|RS485_Control2_Pin|RS485_Control3_Pin|EEPROM_WRP_Pin
+                          |DebugLed_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : Out0_Pin Out1_Pin RS485_Control1_Pin */
   GPIO_InitStruct.Pin = Out0_Pin|Out1_Pin|RS485_Control1_Pin;
@@ -490,8 +491,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : Out2_Pin RS485_Control2_Pin RS485_Control3_Pin */
-  GPIO_InitStruct.Pin = Out2_Pin|RS485_Control2_Pin|RS485_Control3_Pin;
+  /*Configure GPIO pins : Out2_Pin RS485_Control2_Pin RS485_Control3_Pin EEPROM_WRP_Pin
+                           DebugLed_Pin */
+  GPIO_InitStruct.Pin = Out2_Pin|RS485_Control2_Pin|RS485_Control3_Pin|EEPROM_WRP_Pin
+                          |DebugLed_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;

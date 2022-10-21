@@ -363,8 +363,8 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 1.2,
+        "track_width": 0.3,
+        "via_diameter": 1.5,
         "via_drill": 0.5,
         "wire_width": 11.811023622047244
       },
@@ -383,8 +383,8 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(15, 4, 255)",
-        "track_width": 1.0,
-        "via_diameter": 1.2,
+        "track_width": 0.3,
+        "via_diameter": 1.5,
         "via_drill": 0.5,
         "wire_width": 6.0
       },
@@ -403,8 +403,8 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 1.0,
-        "via_diameter": 1.2,
+        "track_width": 0.3,
+        "via_diameter": 1.5,
         "via_drill": 0.5,
         "wire_width": 6.0
       },
@@ -423,8 +423,8 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(49, 255, 72)",
-        "track_width": 1.0,
-        "via_diameter": 1.2,
+        "track_width": 0.3,
+        "via_diameter": 1.5,
         "via_drill": 0.5,
         "wire_width": 6.0
       },
@@ -443,8 +443,8 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 1.0,
-        "via_diameter": 1.2,
+        "track_width": 0.3,
+        "via_diameter": 1.5,
         "via_drill": 0.5,
         "wire_width": 6.0
       }
@@ -527,6 +527,30 @@
     [
       "6122eb88-becb-4e61-8de0-5b471838d76f",
       "USBConnector"
+    ],
+    [
+      "e66bfed9-04d8-481a-a19b-fbdb0daa92be",
+      "RS232Interface"
+    ],
+    [
+      "cf0fa0a4-29d0-436b-8b33-c5d4a4f7a9dd",
+      "IsolatedInputModule"
+    ],
+    [
+      "e9f40d4b-0aba-4972-9def-ab0f36b416b3",
+      "IsolatedInputModule1"
+    ],
+    [
+      "28b69a35-33c5-4518-8dbc-fbf35953df55",
+      "IsolatedInputModule2"
+    ],
+    [
+      "2d867c65-1519-4f8b-8845-1c15e525273c",
+      "InputModuleNC"
+    ],
+    [
+      "ee558694-cfff-4948-8ca5-3e7fdc2d71d2",
+      "InputModuleNC3"
     ]
   ],
   "text_variables": {}

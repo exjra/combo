@@ -89,6 +89,10 @@ void Error_Handler(void);
 #define RS485_Control2_GPIO_Port GPIOB
 #define RS485_Control3_Pin GPIO_PIN_4
 #define RS485_Control3_GPIO_Port GPIOB
+#define EEPROM_WRP_Pin GPIO_PIN_5
+#define EEPROM_WRP_GPIO_Port GPIOB
+#define DebugLed_Pin GPIO_PIN_8
+#define DebugLed_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
